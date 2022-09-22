@@ -4,5 +4,5 @@ function movieResult() {
   var imdb = document.getElementById("imdbRating").value;
   var rotten = document.getElementById("rottenRating").value;
   result = (imdb * 0.5) + (rotten * 0.5);
-  document.getElementById("result").innerHTML = result;
+  document.getElementById("op").innerHTML = result;
 }
