@@ -1,5 +1,5 @@
 // calcution of the value of the movie
-function movieResult() {
+function movieResult() { 
   var result = 1;
   var imdb = document.getElementById("imdbRating").value;
   var rotten = document.getElementById("rottenRating").value;
