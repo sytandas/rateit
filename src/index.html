@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
   </head>
   <header>
     <link rel="stylesheet" type="text/css" href="style.css">
   </header>
   <body>
-    <h1> Rateit </h1>
-      <input type="number" id="imdbRating" min="1" max="10">
-      <input type="number" id="rottenRating" min="1" max="10">
+    <div class="navbar" font-color:"White">
+      <ul> 
+        <li><a class="navbtn" href="#">Home</a></li>
+        <li><a class="navbtn" href="#">Download</a></li>
+        <li><a class="navbtn" href="about.html">About</a></li>
+      </ul>
+    </div>
+    <div class="bannerholder" style="background-image:url(earth.jpeg);">
+      <div class="banner">
+        <h1> Welcome to the RateIt! </h1>
+      </div>
+    </div>
+    <input type="number" id="imdbRating" min="1" max="10">imdb</input>
+    <input type="number" id="rottenRating" min="1" max="10">rottentomatoes</input>
       <button onclick="movieResult()">Result</button>
-      <p id="op"></p>
-      <script type="text/javascript" src="script.js"> </script>
-    <footer>
       <a href="https://www.imdb.com">Visit Imdb</a>
       <a href="https://www.rottentomatoes.com">Visit Rottentomamtoes</a>
-      <button onclick="window.print()">Print</button>
+      <script type="text/javascript" src="script.js"> </script>
+    <footer>
+           <button onclick="window.print()">Print</button>
     </footer>
-  </jody>
+  </body>
 </html>
