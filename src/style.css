@@ -12,8 +12,8 @@
 }
 .navbar ul, .navbar li{
   display:inline;
-  margin-left:10px;
-  margin-right:10px;
+  margin-left:20px;
+  margin-right:20px;
 }
 .navbtn{
   color:white;
@@ -35,5 +35,12 @@
 .banner{
   display:table-cell;
   vertical-align:middle;
+  horizontal-align:top;
   color:white;
+}
+.content{
+  width:80%;
+  margin:auto;
+  padding-top:100px;
+  padding-bottom:100px;
 }
