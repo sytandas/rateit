@@ -1,5 +1,7 @@
-// calcution of the value of the movie
-function movieResult() { 
+// search bar - fetch info from imdb + rottentomatoes -> show info
+// fomula that calculate rateit rating
+// show output
+function movieResult(){ 
   var result = 1;
   var imdb = document.getElementById("imdbRating").value;
   var rotten = document.getElementById("rottenRating").value;
