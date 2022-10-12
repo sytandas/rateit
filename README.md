@@ -1,1 +1,2 @@
-simple movie inforation website 
+movie inforation website 
+
