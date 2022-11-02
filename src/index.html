@@ -8,6 +8,13 @@
     </header>
   </head>
   <body>
+    <script type="text/javascript" src="script.js"></script>
     <h1>RateIt</h1>
+    <input type="text" placeholder="RateIt Search">
+    <button>Go</button>
+    <input type="number" id="imdbRate" min="1" max="10">imdb</input>
+    <input type="number" id="rottenRate" min="1" max="10">rottentomatoes</input>
+    <button onclick="movieResult()">Result</button>
+    <p id="op"></p>
   </body>
 </html>
