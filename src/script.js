@@ -1,5 +1,8 @@
-// search bar - fetch info from imdb + rottentomatoes -> show info
-// show output
+// TODO search bar - fetch info from imdb + rottentomatoes -> show info
+function fetch(){
+
+}
+// TODO show output
 function movieResult(){ 
   var result = 1;
   var imdb = document.getElementById("imdbRate").value;
