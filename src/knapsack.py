@@ -3,8 +3,7 @@
 # rating - movies rating
 # n - lenght of (rating)
 # using 2-D array with 2 rows O(2W)
-# Time coplexity O(N*W)
-
+# Time complexity O(N*W)
 
 def knapSack(time, rating, Time, n):
     # K = [[0 for x in range(Time+1)] for y in range(2)]
@@ -22,9 +21,10 @@ def knapSack(time, rating, Time, n):
     elif time[n - 1] > Time:
         table[n][Time] = knapSack(time, rating, Time, n - 1)
         return table[n][Time]
+
 if __name__ == "__main__":
-    rating = [10, 8, 8, 7]
-    time = [50, 40, 20, 10]
-    Time = 40
+    rating = [10, 3, 9, 5, 6]
+    time = [3, 1, 2, 2, 1]
+    Time = 6
     n = len(rating)
-    print(knapSack(time, rating, Time, n))
+    print(knapSack(time, rating, Time, n)
