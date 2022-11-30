@@ -27,4 +27,4 @@ if __name__ == "__main__":
     time = [3, 1, 2, 2, 1]
     Time = 6
     n = len(rating)
-    print(knapSack(time, rating, Time, n)
+    print(knapSack(time, rating, Time, n))
