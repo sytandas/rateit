@@ -1,1 +1,1 @@
-Simple movie information system.
+Simple movie info system.
